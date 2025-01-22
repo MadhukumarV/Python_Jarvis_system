@@ -1,4 +1,0 @@
-SpeechRecognition==3.10.4
-pyttsx3==2.91
-pyaudio
-wikipedia
