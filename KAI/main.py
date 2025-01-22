@@ -52,7 +52,7 @@ def text_to_speech(text):
     ttx.save("speech.mp3")
     
 def gemini_model(user_input):
-    genai.configure(api_key="AIzaSyDPqRuT3qkx_DHx7mkMPkcTbA-RaRzqkW8")
+    genai.configure(api_key="your api key")
     model = genai.GenerativeModel('gemini-pro')
     response = model.generate_content(user_input)
     results = response.text
